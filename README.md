@@ -1,4 +1,4 @@
-﻿# 🚀 Proyecto de Laboratorio: Calculadora de Viajes Espaciales
+﻿# 🚀 Proyecto de Laboratorio: Calculadora de Viajes Espaciales con funciones
 ## Fundamentos de Programación.
 Autor: Fermín Cruz Mata. Adaptación: Alfonso Bengoa Díaz
 
@@ -35,18 +35,18 @@ A continuacion, crea una carpeta `src` con los siguientes módulos Python:
 
 
 ```
-- viaje_ej1: Calcula la duración de viajes en días
-- viaje_ej2: Calcula la duración con entradas de usuario (distancia y velocidad)
-- viaje_ej3: Comprobar si puedes embarcarte en la misión
-- viaje_ej4: Lista de tiempos para distintas velocidades (con for)
-- viaje_ej5: Repetir simulaciones (con while)
+- viaje_en_dias: Calcula la duración de viajes en días
+- duracion_viaje: Calcula la duración con entradas de usuario (distancia y velocidad)
+- puede_viajar: Comprobar si puedes embarcarte en la misión
+- tiempos_viaje: Lista de tiempos para distintas velocidades (con for)
+- simulacion_viaje: Repetir simulaciones (con while)
 ```
 ✅ En el segundo las funciones necesarias para hacer los test de los ejercicios implementados en el primer módulo.
 
 ---
 
 
-## 📌 Ejercicio 1: Tiempo de viaje en días(`viaje_ej1`)
+## 📌 Ejercicio 1: Tiempo de viaje en días(`viaje_en_dias`)
 
 La función recibe como parámetros la **distancia** en km, de tipo entero, y la **velocidad** en km/h tambíen de tipo entero y **devuelve el tiempo** (de tipo entero) en días que se tardaría en hacer un viaje de esa distancia a esa velocidad.
 
@@ -64,7 +64,7 @@ La función recibe como parámetros la **distancia** en km, de tipo entero, y la
 -  Si la función devuelve None,la salida esperada es: "La distancia debe ser mayor o igual que cero y la velocidad siempre mayor que cero"
 ```
 ---
-## 📌 Ejercicio 2: Tiempo de viaje en días y fracción de días (`viaje_ej2`)
+## 📌 Ejercicio 2: Tiempo de viaje en días y fracción de días (`duracion_viaje`)
 
 Se trata de implementar **la misma función del ejercicio anterior** y modificar lo necesario para que recibidendo la distancia y la velocidad, ambas de tipo entero, **devuelva el tiempo** de tipo float. 
 
@@ -78,7 +78,7 @@ Se trata de implementar **la misma función del ejercicio anterior** y modificar
 
 
 
-## 📌 Ejercicio 3: ¿Puedes viajar? (`viaje_ej3`)
+## 📌 Ejercicio 3: ¿Puedes viajar? (`puede_viajar`)
 
 La función recibe como parámetros la **edad** y el **nivel físico** de un posible astronauta (de 1 a 10) y debe devolver una cadena con su condición para volar, según las siguientes reglas (usa la sentencia if para resolver el ejercicio).
 
@@ -100,7 +100,7 @@ La función recibe como parámetros la **edad** y el **nivel físico** de un pos
 
 ---
 
-## 📌 Ejercicio 4: Tabla de tiempos (`viaje_ej4`)
+## 📌 Ejercicio 4: Tabla de tiempos (`tiempos_viaje`)
 
 La función recibe cuatro parámetros de tipo entero: **distancia, velocidad_inicia, velocidad_final y aceleración** e  invocado al ejercicio 2 (que recuerda que para una distancia y velocidad dada, devuelve el tiempo), debe crear y devolver **una lista de tuplas con las velocidades y los tiempos** que se tarda en recorrer la distancia dada.  En este ejercicio se presupone que los datos que se introducen en el test son consistentes entre ellos
 
@@ -109,7 +109,7 @@ La función recibe cuatro parámetros de tipo entero: **distancia, velocidad_ini
 ```Python
 La cabecera de la función es:
 
-def viaje_ej4(distancia:int, v_ini:int, v_fin:int, aceleración:int)->list[tuple[int,float]]:
+def tiempos_viaje(distancia:int, v_ini:int, v_fin:int, aceleración:int)->list[tuple[int,float]]:
 
 En el test debes recorrer la lista de tuplas que devuelve la función viaje_ej4, (cada tupla tiene como primer elemento la velocidad y como segundo el tiempo) con un for:
  for velocidad, tiempo in viaje_ej4(distancia, vel_inicial, vel_final, aceleración):
@@ -130,7 +130,7 @@ Velocidad: 50000 km/k -> Tiempo: 187.5 días
 
 ---
 
-## 📌 Ejercicio 5: Repetir simulaciones (viaje_ej5)
+## 📌 Ejercicio 5: Repetir simulaciones (simulacion_viaje)
 
 La función no recibe ni devuelve valor alguno, debe seguir, para repetir el número de simluaciones que se deseen, la siguiente secuencia: 
 
