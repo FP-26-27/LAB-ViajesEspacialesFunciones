@@ -34,13 +34,12 @@ A continuacion, crea una carpeta `src` con los siguientes módulos Python:
 ✅ En el primer módulo se implementarán las siguientes funciones: 
 
 
-```
-- viaje_en_dias: Calcula la duración de viajes en días
-- duracion_viaje: Calcula la duración con entradas de usuario (distancia y velocidad)
-- puede_viajar: Comprobar si puedes embarcarte en la misión
-- tiempos_viaje: Lista de tiempos para distintas velocidades (con for)
-- simulacion_viaje: Repetir simulaciones (con while)
-```
+- `viaje_en_dias`: Calcula la duración de viajes en días
+- `duracion_viaje`: Calcula la duración con entradas de usuario (distancia y velocidad)
+- `puede_viajar`: Comprobar si puedes embarcarte en la misión
+- `tiempos_viaje`: Lista de tiempos para distintas velocidades (con for)
+- `simulacion_viaje`: Repetir simulaciones (con while)
+
 ✅ En el segundo las funciones necesarias para hacer los test de los ejercicios implementados en el primer módulo.
 
 ---
@@ -58,11 +57,10 @@ La función recibe como parámetros la **distancia** en km, de tipo entero, y la
 - que un día tiene 24 horas también se hará la división con el operador **//** (parte entera)
 
 **Resultados esperados:**
-```Python
--  Para una distancia de 384400 km (distancia Tierra - Luna) y una velocidad de 5000 km, la salida esperada es: "Se tardaría 3 días en llegar"
 
+-  Para una distancia de 384400 km (distancia Tierra - Luna) y una velocidad de 5000 km, la salida esperada es: "Se tardaría 3 días en llegar"
 -  Si la función devuelve None,la salida esperada es: "La distancia debe ser mayor o igual que cero y la velocidad siempre mayor que cero"
-```
+
 ---
 ## 📌 Ejercicio 2: Tiempo de viaje en días y fracción de días (`duracion_viaje`)
 
@@ -70,13 +68,8 @@ Se trata de implementar **la misma función del ejercicio anterior** y modificar
 
 
 **Resultados esperados:**
-```Python
 -  Para una distancia de 384400 km (distancia Tierra - Luna) y una velocidad de 5000 km, la salida esperada es: "Se tardaría 3.203333333333333 días en llegar"
-
 -  Si la función devuelve None,la salida esperada es: "La distancia debe ser mayor o igual que cero y la velocidad siempre mayor que cero"
-```
-
-
 
 ## 📌 Ejercicio 3: ¿Puedes viajar? (`puede_viajar`)
 
@@ -89,14 +82,12 @@ La función recibe como parámetros la **edad** y el **nivel físico** de un pos
 **Restricciones:** La edad debe ser positiva y el nivel físico debe estar entre 1 y 10. Si no se cumplen estas restricciones la función devolverá **None**
 
 **Resultados esperados:**
-```Python
+
 -  Segun los parámetros de entrada alguno de los tres siguientes mensajes:
   - "Condición del astronáuta: Debes ser mayor de edad."
   - "Condición del astronáuta: Debes estar en mejor forma."
   - "Condición del astronáuta: ¡Listo para despegar!"
-
--  Si la función devuelve None,la salida esperada es: "La edad debe ser positiva y el nivel físico entre 1 y 10"
-```
+-  Si la función devuelve `None`,la salida esperada es: "La edad debe ser positiva y el nivel físico entre 1 y 10"
 
 ---
 
@@ -118,10 +109,8 @@ En el test debes recorrer la lista de tuplas que devuelve la función `tiempos_v
 ````
 **Resultados esperados**
 
-
-```python
 Prueba por ejemplo, con una distancia 225 millones de km (distancia Tierra - Marte) con velocidades de 10.000 a 50.000 km/h, en saltos de 10.000 km/h (acelaración) la salida esperada será:
-
+``` python
 Velocidad: 10000 km/k -> Tiempo: 937.5 días
 Velocidad: 20000 km/k -> Tiempo: 468.75 días
 Velocidad: 30000 km/k -> Tiempo: 312.5 días
