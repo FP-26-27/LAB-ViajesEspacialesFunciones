@@ -1,6 +1,5 @@
 ﻿# 🚀 Proyecto de Laboratorio: Calculadora de Viajes Espaciales
-## Fundamentos de Programación. Grado en Ingeniería Informática.Tecnología Informática (grupo 3). Universidad de Sevilla
-## Este ejercicio es una adaptación del que se preparó para el Grado en Ingeniería Informática.Inteligencia Artificial
+## Fundamentos de Programación.
 Autor: Fermín Cruz Mata. Adaptación: Alfonso Bengo Díaz
 
 ¡Prepárate para una misión interplanetaria! En este laboratorio vas a construir una serie de scripts que simulan distintos aspectos de una misión espacial: cálculos de viaje, condiciones para realizar el viaje, y más.
