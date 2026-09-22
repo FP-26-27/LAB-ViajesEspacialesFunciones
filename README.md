@@ -130,7 +130,7 @@ Velocidad: 50000 km/k -> Tiempo: 187.5 días
 
 ---
 
-## 📌 Ejercicio 5: Repetir simulaciones (simulacion_viaje)
+## 📌 Ejercicio 5: Repetir simulaciones (`simulacion_viaje`)
 
 La función no recibe ni devuelve valor alguno, debe seguir, para repetir el número de simluaciones que se deseen, la siguiente secuencia: 
 
