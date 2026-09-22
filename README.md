@@ -1,6 +1,6 @@
 ﻿# 🚀 Proyecto de Laboratorio: Calculadora de Viajes Espaciales
 ## Fundamentos de Programación.
-Autor: Fermín Cruz Mata. Adaptación: Alfonso Bengo Díaz
+Autor: Fermín Cruz Mata. Adaptación: Alfonso Bengoa Díaz
 
 ¡Prepárate para una misión interplanetaria! En este laboratorio vas a construir una serie de scripts que simulan distintos aspectos de una misión espacial: cálculos de viaje, condiciones para realizar el viaje, y más.
 
