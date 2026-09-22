@@ -62,6 +62,7 @@ La función recibe como parámetros la **distancia** en km, de tipo entero, y la
 -  Si la función devuelve None,la salida esperada es: "La distancia debe ser mayor o igual que cero y la velocidad siempre mayor que cero"
 
 ---
+
 ## 📌 Ejercicio 2: Tiempo de viaje en días y fracción de días (`duracion_viaje`)
 
 Se trata de implementar **la misma función del ejercicio anterior** y modificar lo necesario para que recibidendo la distancia y la velocidad, ambas de tipo entero, **devuelva el tiempo** de tipo `float`. 
@@ -70,6 +71,8 @@ Se trata de implementar **la misma función del ejercicio anterior** y modificar
 **Resultados esperados:**
 -  Para una distancia de 384400 km (distancia Tierra - Luna) y una velocidad de 5000 km, la salida esperada es: "Se tardaría 3.203333333333333 días en llegar"
 -  Si la función devuelve None,la salida esperada es: "La distancia debe ser mayor o igual que cero y la velocidad siempre mayor que cero"
+
+---
 
 ## 📌 Ejercicio 3: ¿Puedes viajar? (`puede_viajar`)
 
@@ -131,9 +134,9 @@ La función no recibe ni devuelve valor alguno, debe seguir, para repetir el nú
 
 ---
 **Ayuda**
-```python
+
 Comienza inicializando una variable 'seguir' con el valor 's' que te permitirá mentener un bucle indefinido hasta que dicha variable la pongas a 'n' 
-```
+
 
 **Resultado esperado**
 
