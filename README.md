@@ -66,7 +66,7 @@ La función recibe como parámetros la **distancia** en km, de tipo entero, y la
 ---
 ## 📌 Ejercicio 2: Tiempo de viaje en días y fracción de días (`duracion_viaje`)
 
-Se trata de implementar **la misma función del ejercicio anterior** y modificar lo necesario para que recibidendo la distancia y la velocidad, ambas de tipo entero, **devuelva el tiempo** de tipo float. 
+Se trata de implementar **la misma función del ejercicio anterior** y modificar lo necesario para que recibidendo la distancia y la velocidad, ambas de tipo entero, **devuelva el tiempo** de tipo `float`. 
 
 
 **Resultados esperados:**
@@ -106,14 +106,15 @@ La función recibe cuatro parámetros de tipo entero: **distancia, velocidad_ini
 
 **Ayudas**
 
-```Python
 La cabecera de la función es:
 
+```python
 def tiempos_viaje(distancia:int, v_ini:int, v_fin:int, aceleración:int)->list[tuple[int,float]]:
-
-En el test debes recorrer la lista de tuplas que devuelve la función viaje_ej4, (cada tupla tiene como primer elemento la velocidad y como segundo el tiempo) con un for:
- for velocidad, tiempo in viaje_ej4(distancia, vel_inicial, vel_final, aceleración):
-    
+```
+En el test debes recorrer la lista de tuplas que devuelve la función `tiempos_viaje`, (cada tupla tiene como primer elemento la velocidad y como segundo el tiempo) con un for:
+```python
+ tiempos = tiempos_viaje(distancia, vel_inicial, vel_final, aceleracion)
+ for velocidad, tiempo in tiempos:
 ````
 **Resultados esperados**
 
@@ -135,7 +136,7 @@ Velocidad: 50000 km/k -> Tiempo: 187.5 días
 La función no recibe ni devuelve valor alguno, debe seguir, para repetir el número de simluaciones que se deseen, la siguiente secuencia: 
 
 1. Pide por teclado que se introduzca la distancia y la velocidad con número enteros.
-2. Invoca a la función ``viaje_ej2`` con sus respectivos parámetros y muestra el resultado: Para una distancia: **dddddd** y velocidad: **vvvvvv** el tiempo es: **tttttt**
+2. Invoca a la función ``duracion_viaje`` con sus respectivos parámetros y muestra el resultado: Para una distancia: **dddddd** y velocidad: **vvvvvv** el tiempo es: **tttttt**
 3. Pregunta: "¿Quieres hacer otra simulación? (s/n)"
 4. Si responde "s", repite desde el paso 1, 2 y 3. Si responde "n", termina el programa.
 
